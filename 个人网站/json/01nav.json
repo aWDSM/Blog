@@ -1,0 +1,27 @@
+{
+    "data":[
+        {
+            "headline":"首页"
+        },
+        {
+            "headline":"关于",
+            "subhead":["关于我","友情互联"]
+        },
+        {
+            "headline":"成长"
+        },
+        {
+            "headline":"学习",
+            "subhead":["html","css","php","ajax","javaScript"]
+        },
+        {
+            "headline":"娱乐"
+        },
+        {
+            "headline":"海之城"
+        },
+        {
+            "headline":"留言"
+        }
+    ]
+}

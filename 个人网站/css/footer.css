@@ -1,0 +1,29 @@
+.footer {
+  position: relative;
+  bottom: 0px;
+  z-index: 1;
+  clear: both;
+  width: 100%;
+  background: #414141;
+  color: #ddd;
+  text-shadow: 0 -1px 0 #333;
+}
+.footer a {
+  color: #aaa;
+}
+.footer .footer_inner {
+  margin: 0 auto;
+  padding: 16px 0 14px;
+  width: 100%;
+  max-width: 1200px;
+  border-left: 0 solid #428bca;
+  background-color: #414141;
+  color: #aaa;
+  text-shadow: 0 -1px 0 #333;
+}
+.footer .footer_inner .ft_l {
+  float: left;
+}
+.footer .footer_inner .ft_r {
+  float: right;
+}
