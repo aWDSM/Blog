@@ -67,6 +67,7 @@ class Operate
         }
         $insert .= ')';
         $state =mysqli_query($this -> db, $insert);
+        return $state;
     }
     /**
      * 查询数据表

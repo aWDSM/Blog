@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f1f1f1;
+  color: #555;
+  font-size: 12px;
+}
+input,
+button {
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3 {
+  line-height: 25px;
+}
+ul,
+li {
+  list-style: none;
+}
+p {
+  margin: 0 0 10px;
+}
+.header {
+  width: 100%;
+  background-color: #000;
+  height: 45px;
+  line-height: 45px;
+}
+.header .logo {
+  float: left;
+  width: 200px;
+}
+.header .logo img {
+  vertical-align: middle;
+  width: 35px;
+  height: 35px;
+}
+.header .nav {
+  float: left;
+}
+.header .nav .list .menu_list {
+  display: inline-block;
+  position: relative;
+}
+.header .nav .list .menu_list a {
+  display: block;
+  padding: 0 30px;
+  color: #fff;
+  font-size: 15px;
+}
+.header .nav .list .menu_list .select {
+  width: 100%;
+  max-width: 100px;
+  font-size: 12px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  z-index: 9999;
+  background: #000;
+}
+.header .nav .list .menu_list .select li {
+  display: block;
+  text-align: center;
+  padding: 5px 20px 4px;
+  color: #eee;
+  border-top: 1px solid #555;
+}
+.header .nav .list .menu_list .select li a {
+  padding: 0;
+  font-size: 12px;
+}
+.header .nav .list .menu_list .select li:hover {
+  background: #5EAC5E;
+}
+.header .menu_right {
+  float: right;
+  margin-top: 7px;
+  width: 240px;
+}
+.header .menu_right input {
+  margin-right: -35px;
+  margin-left: -35px;
+  width: 195px;
+  float: left;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  color: #bbb;
+  height: 30px;
+  text-indent: 1em;
+  color: #000;
+}
+.header .menu_right button {
+  border: none;
+  width: 14px;
+  height: 26px;
+  background: url(http://www.zbboke.com/templets/boke/images/searchbtn.png) no-repeat 0 6px;
+}

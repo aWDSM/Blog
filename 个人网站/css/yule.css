@@ -1,0 +1,143 @@
+.conts {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: left;
+}
+.conts .cons_l {
+  width: 855px;
+  float: left;
+}
+.conts .cons_l .tited {
+  margin-bottom: 1px;
+  padding: 5px 20px;
+  border-radius: 5px 5px 0 0;
+  background-color: #F7F7F7;
+  font-size: 12px;
+  overflow: hidden;
+}
+.conts .cons_l .tited h1 {
+  float: left;
+  width: 600px;
+  font-size: 20px;
+}
+.conts .cons_l .tited p {
+  float: right;
+  margin: 0px;
+  line-height: 40px;
+}
+.conts .cons_l .yules .fen {
+  width: 100%;
+  overflow: hidden;
+  margin: 20px 0;
+}
+.conts .cons_l .yules .fen ul {
+  float: left;
+}
+.conts .cons_l .yules .fen ul li {
+  display: inline-block;
+  padding: 5px 6px;
+  border: 1px solid #666;
+  margin: 0 10px;
+}
+.conts .cons_l .yules .fen ul .sle {
+  background: red;
+  color: #fff;
+}
+.conts .cons_l .yules .fen .ye {
+  float: left;
+  font-size: 20px;
+  line-height: 30px;
+}
+.conts .cons_l .yules .excerpt {
+  position: relative;
+  margin-bottom: 1px;
+  padding: 20px 20px 20px 256px;
+  border-left: solid 4px #fff;
+  background-color: #fff;
+  overflow: hidden;
+}
+.conts .cons_l .yules .excerpt .focus {
+  position: relative;
+  float: left;
+  margin-top: 0;
+  margin-left: -240px;
+  width: 220px;
+  text-align: center;
+}
+.conts .cons_l .yules .excerpt .focus img {
+  width: 220px;
+}
+.conts .cons_l .yules .excerpt h2 {
+  margin: 5px 40px 5px 0;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  font-weight: 700;
+  padding-left: 0;
+}
+.conts .cons_l .yules .excerpt p {
+  overflow: hidden;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 15px;
+}
+.conts .cons_l .yules .excerpt p span {
+  margin-right: 20px;
+}
+.conts .cons_r {
+  width: 300px;
+  float: left;
+  margin-bottom: 1px;
+  padding: 5px 20px;
+  border-radius: 5px 5px 0 0;
+  background-color: #F7F7F7;
+  font-size: 12px;
+}
+.conts .cons_r .widget {
+  clear: both;
+  margin-bottom: 10px;
+  border-radius: 5PX;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.conts .cons_r .widget h3 {
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  margin: 0;
+  padding: 11px 15px 14px;
+  border-bottom: 1px solid #eaeaea;
+  background-color: #fbfbfb;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.conts .cons_r .widget .w_ul li {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-left: -3px;
+  padding: 10px 15px 10px 10px;
+  border-bottom: solid 1px #eee;
+  border-left: 3px solid transparent;
+  font-size: 14px;
+}
+.conts .cons_r .widget .w_ul li img {
+  float: left;
+  width: 80px;
+  height: 55px;
+}
+.conts .cons_r .widget .w_ul li dl {
+  float: right;
+  width: 180px;
+}
+.conts .cons_r .widget .w_ul li dl dt {
+  font-size: 14px;
+}
+.conts .cons_r .widget .w_ul li dl dd span {
+  margin-right: 30px;
+  font-size: 13px;
+  color: #999;
+}

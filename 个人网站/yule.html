@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="css/yule.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src='js/jquery-1.8.3.min.js'></script>
+    <script src="js/underscore.js"></script>
+</head>
+<body>
+    <header class="header"></header>
+    <div class="conts">
+        <div class="cons_l">
+            <div class="tited ">
+                <h1>留言</h1>
+                <p>
+                    <a href="index.html">主页</a>>
+                    <a>娱乐</a>>
+                </p>
+            </div>
+            <div class="yules">
+                <!-- <div class="fen">
+                    <ul></ul>
+                </div> -->
+            </div>
+        </div>
+        <div class="cons_r">
+            <div class="widget">
+                <h3>频道点击排行</h3>
+                <ul class="w_ul"></ul>
+            </div>
+        </div>
+        <script src="js/paihang.js"></script>
+    </div>
+    <footer class="footer">
+        <div class="footer_inner">
+            <div style="padding:0 20px;overflow:hidden;">
+                <div class="ft_l">
+                    <a href="">关于</a>|
+                    <a href="">学习</a>|
+                    <a href="">娱乐</a>|
+                    <a href="">成长</a>|
+                    <a href="">Copyright © 2016, zhangbing All Rights Reserved.</a>|
+                    <a href="">苏ICP备16050559号</a>
+                    <a href="">网站地图</a>|
+                </div>
+                <div class="ft_r">
+                    <span>
+                        <a href="">站长统计</a>
+                        <a href=""> | 今日IP[40] | 今日PV[93] | 昨日IP[37] | 昨日PV[90] |</a>
+                        <a href="">当前在线[1]</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/template" id="template">
+    <div class="excerpt">
+            <div class="focus"><a><img src="<%=img%>"></a></div>
+            <h2><%=header%></h2>
+            <p><%=note%></p>
+            <p>
+                <span>
+                    <i class="icon"></i>
+                    <%=user%>
+                </span>
+                <span>
+                    <i class="icon"></i>
+                    <%=times%>
+                </span>
+                <span>
+                    <i class="icon"></i>
+                   <%=browse%>
+                </span>
+            </p>
+        </div>
+    </script>
+    <script src="js/MVC.js"></script>
+    <script src="js/M.js"></script>
+    <script src="js/V.js" async="async"></script>
+    <script src="js/C.js"></script>
+    <script>
+        MVC.install();
+    </script>
+    <script src="js/yule1.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 $.get("php/publish.php",function(data){
     data=typeof data==="object" ? data :eval("("+data+")");
-    console.log(data);
+    // console.log(data);
     var arry=[];
     var dataArray=data.data;
     for(var i=0;i<dataArray.length;i++){
@@ -11,7 +11,6 @@ $.get("php/publish.php",function(data){
         var dd=$("<dd></dd>").appendTo(dt);
          $("<span class='tm'>" + dataArray[i].times +"</span>").appendTo(dd);
         $("<span class='cs'>" + dataArray[i].browse+ "</span>").appendTo(dd);
-
     }
     // console.log(arry)
     // var a="123dad";
