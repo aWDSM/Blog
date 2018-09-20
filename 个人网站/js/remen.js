@@ -1,5 +1,4 @@
 $.get('php/search_liu.php', function (data) {
-    data=typeof data==="object" ? data:eval("("+data+")");
     var dataArray = data.data;
     var arry=[];
     for(var i=dataArray.length-1;i>=0;i--){

@@ -39,6 +39,8 @@ p {
 .header .logo {
   float: left;
   width: 200px;
+  overflow: hidden;
+  height: 45px;
 }
 .header .logo img {
   width: 135px;

@@ -6,9 +6,6 @@ $.get('json/01nav.json', function (data) {
         
 });
 $.get("php/insert.php", function (data) {
-    if(data.data.length==0){
-        return;
-    }
     MVC.addModel('sticky', {
         data: data.data
     })

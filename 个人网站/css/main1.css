@@ -131,7 +131,7 @@
   margin-bottom: 10px;
   border-radius: 5PX;
   background-color: #fff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 28px rgba(0, 0, 0, 0.4);
 }
 .main .content_wrap .aside .widget .tag_list ul {
   padding: 20px;
